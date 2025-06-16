@@ -1,0 +1,477 @@
+/* Tais Silva, Talita Todesco Marcondes, Victor Rumualdo */
+
+/* -------------------- INDEX - Hero Section personalizada --------------------*/
+.home {
+  background-color: #f0f0f0;
+  height: 100vh; /* Ocupa a altura total da tela */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #212529; /* texto escuro, compatível com text-dark */
+}
+/* Conteúdo centralizado da Hero */
+.hero-content {
+  max-width: 800px;
+  text-align: center;
+}
+/* Título personalizado */
+.hero-title {
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 72px;
+  font-weight: 300;
+}
+/* Subtítulo */
+.hero-subtitle {
+  font-size: 20px;
+  color: #343a40;
+}
+/* Botão */
+.hero-button {
+  transition: all 0.3s ease;
+}
+.hero-button:hover {
+  background-color: #212529;
+  color: #fff;
+}
+.imagem-infra {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+/* -------------------- INDEX - Hero Section fim --------------------*/
+
+/* -------------------- INDEX - Nossos Serviços --------------------*/
+.servicos {
+  height: 100vh; /* Ocupa a altura total da tela */
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+/* Título da seção */
+.titulo-secao {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  font-weight: bold;
+}
+/* Grid dos cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+/* Cada card individual */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Animação ao passar o mouse */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+/* Corpo do card */
+.card-body {
+  padding: 20px;
+}
+/* Título do card */
+.card-title {
+  font-size: 20px;
+  color: #004080;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+/* Texto do card */
+.card-text {
+  font-size: 16px;
+  color: #555;
+}
+/* -------------------- INDEX - Nossos Serviços fim --------------------*/
+
+/* -------------------- INDEX - Slide IMG --------------------*/
+/**/
+.slideshow {
+  background-color: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+.slideshow-titulo {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+.slideshow-container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease-in-out;
+}
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+.slide.ativo {
+  display: block;
+  position: relative;
+}
+/* -------------------- INDEX - Slide IMG fim --------------------*/
+
+/* -------------------- PAGINA 1 - Conteudo principal --------------------*/
+.cabecalho-zabbix {
+  background-color: #d7e3f3;
+  color: #1b3f7f;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.conteudo-principal {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+.coluna-texto {
+  flex: 1 1 300px;
+}
+.coluna-texto h3 {
+  color: #1b3f7f;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.coluna-texto ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.coluna-texto ul li {
+  margin-bottom: 8px;
+}
+.coluna-imagem {
+  flex: 1 1 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grafana-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+.coluna-imagem-grafana img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(5, 5, 5, 0.2);
+}
+.coluna-texto-grafana h3{
+  color: #1b3f7f;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.coluna-imagem-grafana {
+  flex: 1;
+}
+.coluna-texto-grafana {
+  flex: 1;
+}
+.coluna-texto-grafana ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.coluna-texto-grafana ul li {
+  margin-bottom: 8px;
+}
+.imagem-destaque {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+/* Responsividade */
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .coluna-texto, .coluna-imagem {
+    text-align: center;
+  }
+}
+/* -------------------- PAGINA 1 - Conteudo principal fim --------------------*/
+
+/* -------------------- PAGINA 2 - Conteudo principal --------------------*/
+.cabecalho-sophos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d7e3f3; /* fundo claro que contrasta com azul */
+  padding: 70px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cabecalho-sophos img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+.texto-sophos {
+  max-width: 900px;
+}
+.texto-sophos h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #1b3f7f; 
+}
+.texto-sophos p {
+  font-size: 20px;
+  color: #333;
+}
+/* Responsivo */
+@media (max-width: 768px) {
+  .cabecalho-sophos {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .texto-sophos {
+    max-width: 100%;
+  }
+  .cabecalho-sophos img {
+    max-width: 160px;
+  }
+}
+/* Seção Recursos */
+.recursos-sophos {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+.recursos-sophos h2 {
+  color: #2b5caa;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+.cards-recursos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card-recurso {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.card-recurso img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.card-recurso h3 {
+  color: #1b3f7f;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.card-recurso:hover {
+  transform: translateY(-5px);
+}
+/* CTA */
+.cta {
+  background-color: #d7e3f3;
+  color: #1b3f7f;
+  text-align: center;
+  padding: 60px 20px;
+}
+.cta h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.botao-cta {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  color: #2b5caa;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.botao-cta:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.05);
+}
+/* Animações */
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Responsivo */
+@media (max-width: 768px) {
+  .cabecalho-sophos h1 {
+    font-size: 2.2em;
+  }
+  .imagem-seguranca {
+    width: 80px;
+    height: 80px;
+  }
+  .cards-recursos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* -------------------- PAGINA 2 - Conteudo principal fim --------------------*/
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.menu li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+.menu li a:hover,
+.menu li a.ativo {
+  color: #fff;
+}
+/* ===== Seção de Serviços ===== */
+.secao-servicos {
+  background-image: linear-gradient( #d7e3f3, #f3f4f5);
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f2f4f8;
+}
+.secao-servicos h2 {
+  font-size: 2.5em;
+  color: #2b5caa;
+  margin-bottom: 40px;
+}
+.cards-servicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.card-servico {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+.card-servico img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  transition: transform 0.5s ease;
+}
+.card-servico h3 {
+  color: #2b5caa;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+.card-servico:hover {
+  transform: translateY(-5px);
+}
+.card-servico:hover img {
+  transform: rotate(10deg) scale(1.1);
+}
+/* ===== Responsivo ===== */
+@media (max-width: 768px) {
+  .cards-servicos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
+.header-contato {
+  min-height: 300px;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #2b5caa 0%, #204a84 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: fadeInHeader 1s ease forwards;
+}
+.header-contato h1 {
+  font-size: 3rem;
+  margin: 0 0 0.5rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.header-contato p {
+  font-size: 1.25rem;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+@keyframes fadeInHeader {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
